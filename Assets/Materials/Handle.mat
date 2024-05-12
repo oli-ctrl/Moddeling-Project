@@ -1,0 +1,637 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Handle
+  m_Shader: {fileID: 4800000, guid: 1fd015d28eb215740bca7f95168785b9, type: 3}
+  m_ShaderKeywords: _CUSTOMCOLORS_ON _EFFECTEDBYDISTORTION_ON _GRAYSCALETOGGLE_ON
+    _GRAYSCALE_ON _SCREENSPACE_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3001
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _ALVORotMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BSColorGradient:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cube:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cubemap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Displacement:
+        m_Texture: {fileID: 2800000, guid: d4214e49dd1a7c84bb731cba79847b8a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DisplacementTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DistortTextureA:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DistortTextureB:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DistortionTexture:
+        m_Texture: {fileID: 2800000, guid: a08ae9c9cb412f846a9567ab1d4c3a82, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FragColDistortionTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FragColFresnelGradientTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FragColFresnelMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FresnelDistortionTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GradientPreview:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _InsideTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MatCapTexture:
+        m_Texture: {fileID: 2800000, guid: 3322f4f22a074e845b7d3c43dde66f26, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Matcap:
+        m_Texture: {fileID: 2800000, guid: fd5ea256db7f1a541b58c7c4b37e306f, type: 3}
+        m_Scale: {x: 0.9, y: 0.9}
+        m_Offset: {x: 0.05, y: 0.05}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormaMap:
+        m_Texture: {fileID: 2800000, guid: 857efd961b4a9d14fa83e77ca0a95262, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ScreenSpaceTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Screenspacetex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StylizedTexturePreview:
+        m_Texture: {fileID: 2800000, guid: 821e797cf1b9e68479e1455558ef0c46, type: 3}
+        m_Scale: {x: 6.1, y: 6.16}
+        m_Offset: {x: 0, y: 0}
+    - _Texture:
+        m_Texture: {fileID: 2800000, guid: 337d4532d6416f245a9a4337f6a85247, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TrailMaskTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TrailMaskTexNrm:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Instancing: 0
+    - _ALFragAltColorHelpbox1: 0
+    - _ALFragAltColorHelpbox2: 0
+    - _ALFragAltColorHelpbox3: 0
+    - _ALFragAltColorHelpbox4: 0
+    - _ALFragAltColorHelpbox5: 0
+    - _ALFragAltColorHelpbox6: 0
+    - _ALFragAltColorValue: 0
+    - _ALFragColFlickerBand: 0
+    - _ALFragColFlickerBandSettingsHelpbox1: 0
+    - _ALFragColFlickerFilterAmount: 0
+    - _ALFragColFlickerFilterLevel: 0
+    - _ALFragColFlickerPumpAngle: 0
+    - _ALFragColFlickerPumpHistory: 32
+    - _ALFragColFlickerPumpInvert: 0
+    - _ALFragColFlickerPumpSmooth: 1
+    - _ALFragColFlickerSensitivityType: 0
+    - _ALFragColFlickerSwap: 0
+    - _ALFragColFlickerThreshold: 0.5
+    - _ALFragColMixedValue: 0
+    - _ALFragGlowBand: 0
+    - _ALFragGlowFilterAmount: 0
+    - _ALFragGlowFilterLevel: 0
+    - _ALFragGlowMode: 0
+    - _ALFragGlowPumpHelpbox1: 0
+    - _ALFragGlowSensitivityType: 0
+    - _ALFragGlowStrength: 0
+    - _ALFragGlowWaveAngle1: 0
+    - _ALFragGlowWaveFilterHistory: 32
+    - _ALFragGlowWaveNegate: 0
+    - _ALFragGlowWaveSmooth: 1
+    - _ALVOBandSettingsHelpbox1: 0
+    - _ALVORotBand: 0
+    - _ALVORotEffectMode: 0
+    - _ALVORotFilterAmount: 0
+    - _ALVORotFilterLevel: 0
+    - _ALVORotHelpbox1: 0
+    - _ALVORotMode: 0
+    - _ALVORotModeType: 0
+    - _ALVORotSensitivityType: 0
+    - _ALVORotSpeed: 0
+    - _ALVORotStrength: 1
+    - _ALVOScaleBandSettingsHelpbox1: 0
+    - _ALVOVertBand: 0
+    - _ALVOVertFilterAmount: 0
+    - _ALVOVertFilterLevel: 0
+    - _ALVOVertRotStrength: 0
+    - _ALVOVertScaleAxisValue: 0
+    - _ALVOVertScaleStrength: 0
+    - _ALVOVertScaleType: 0
+    - _ALVOVertScaleWaveAngle: 0
+    - _ALVOVertScaleWaveHistory: 32
+    - _ALVOVertScaleWaveInvert: 0
+    - _ALVOVertScaleWaveSmooth: 1
+    - _ALVOVertSensitivityType: 0
+    - _AltSaberColor: 0
+    - _Ambient: 0.191
+    - _BSColorType: 0
+    - _BSGradientAngle: 0
+    - _BSGradientAnimALBand1: 0
+    - _BSGradientAnimALEnable: 0
+    - _BSGradientAnimALMode1: 0
+    - _BSGradientAnimALModeType1: 0
+    - _BSGradientAnimALSpeed1: 0
+    - _BSGradientAnimALStrength: 0
+    - _BSGradientAnimSpeed: 0
+    - _BSGradientScale: 0
+    - _BumpScale: 1
+    - _CCOverrideFrom: 0
+    - _ColormaskFuzziness: 0.21
+    - _ColormaskRange: 1
+    - _Contrast: 1
+    - _CubemapIntensity: 0
+    - _CullMode: 2
+    - _CustomColors: 1
+    - _Cutoff: 0
+    - _DetailNormalMapScale: 1
+    - _DisplacementIntensity: 1
+    - _DisplacementSpeed: 0
+    - _DisplacementStrength: -0.4
+    - _DistortionOpacity: 1
+    - _DistortionPower: 1
+    - _DistortionSpeed: 0.1
+    - _DistortionTexturePanningAmount: 0
+    - _DistortionWeight: 1
+    - _DivideSpeed: 1
+    - _DodgeColors: 0
+    - _DstBlend: 0
+    - _EffectedByDistortion: 1
+    - _EmisAltColorGradientInvert: 0
+    - _EmissionStrength: 1
+    - _EnableALFragColFlicker: 0
+    - _EnableALFragGlow: 0
+    - _EnableALVORot: 0
+    - _EnableALVORotate: 0
+    - _EnableALVOScale: 0
+    - _EnableFragColDistortion: 0
+    - _FragColAltMaskAngle: 0
+    - _FragColAltMaskHelpbox1: 0
+    - _FragColAltMaskHelpbox2: 0
+    - _FragColAltMaskMaximum: 1
+    - _FragColAltMaskMinimum: -1
+    - _FragColAltMaskNegate: 0
+    - _FragColAltMaskSetupMode: 0
+    - _FragColAltMaskStrength: 0
+    - _FragColDistortionALAnimationBand: 0
+    - _FragColDistortionALAnimationEnabled: 0
+    - _FragColDistortionALAnimationMode: 0
+    - _FragColDistortionALAnimationModeType: 0
+    - _FragColDistortionALAnimationSpeed: 0
+    - _FragColDistortionALAnimationStrength: 0
+    - _FragColDistortionGenTex: 0
+    - _FragColDistortionTexAngle: 0
+    - _FragColDistortionTexAnimationAngle: 0
+    - _FragColDistortionTexAnimationInvert: 0
+    - _FragColDistortionTexAnimationSpeed: 0
+    - _FragColDistortionTexMode: 0
+    - _FragColDistortionTexScale: 1
+    - _FragColFresnelALColOptionsNotice: 0
+    - _FragColFresnelColorHelpbox1: 0
+    - _FragColFresnelColorHelpbox2: 0
+    - _FragColFresnelColorHelpbox3: 0
+    - _FragColFresnelColorHelpbox4: 0
+    - _FragColFresnelColorHelpbox5: 0
+    - _FragColFresnelColorHelpbox6: 0
+    - _FragColFresnelEnable: 0
+    - _FragColFresnelGradientAngle: 0
+    - _FragColFresnelGradientAnimALBand: 0
+    - _FragColFresnelGradientAnimALEnable: 0
+    - _FragColFresnelGradientAnimALMode: 0
+    - _FragColFresnelGradientAnimALModeType: 0
+    - _FragColFresnelGradientAnimALSpeed: 0
+    - _FragColFresnelGradientAnimALStrength: 0
+    - _FragColFresnelGradientAnimSpeed: 0
+    - _FragColFresnelGradientColorFrom: 8
+    - _FragColFresnelGradientColorType: 0
+    - _FragColFresnelGradientInvert: 0
+    - _FragColFresnelGradientScale: 0
+    - _FragColFresnelMaskALBand: 0
+    - _FragColFresnelMaskALMode: 0
+    - _FragColFresnelMaskALModeType: 0
+    - _FragColFresnelMaskALSpeed: 0
+    - _FragColFresnelMaskALStrength: 0
+    - _FragColFresnelMaskALToggle: 0
+    - _FragColFresnelMaskAngle: 0
+    - _FragColFresnelMaskAnimationAngle: 0
+    - _FragColFresnelMaskAnimationSpeed: 0
+    - _FragColFresnelMaskChannel: 4
+    - _FragColFresnelMaskInvert: 0
+    - _FragColFresnelMaskScreenSpace: 0
+    - _FragColFresnelPower: 5
+    - _FragColFresnelPowerALBand: 0
+    - _FragColFresnelPowerALBlend: 0
+    - _FragColFresnelPowerALFilterAmount: 0
+    - _FragColFresnelPowerALFilterLevel: 0
+    - _FragColFresnelPowerALStrength: 0
+    - _FragColFresnelPowerALType: 0
+    - _FragColFresnelPowerALWaveDensity: 32
+    - _FragColFresnelPowerALWaveDirection: 0
+    - _FragColFresnelPowerALWaveInvert: 0
+    - _FragColFresnelPowerALWaveSmooth: 1
+    - _FragColFresnelPowerSensitivityType: 0
+    - _FragColFresnelScale: 1
+    - _FragColFresnelScaleALBand: 0
+    - _FragColFresnelScaleALBlend: 0
+    - _FragColFresnelScaleALFilterAmount: 0
+    - _FragColFresnelScaleALFilterLevel: 0
+    - _FragColFresnelScaleALStrength: 0
+    - _FragColFresnelScaleALType: 0
+    - _FragColFresnelScaleALWaveDensity: 32
+    - _FragColFresnelScaleALWaveDirection: 0
+    - _FragColFresnelScaleALWaveInvert: 0
+    - _FragColFresnelScaleALWaveSmooth: 1
+    - _FragColFresnelScaleSensitivityType: 0
+    - _Fresnel: 0
+    - _FresnelBias: 1
+    - _FresnelExp: 3
+    - _FresnelGlow: 0
+    - _FresnelIntensity: 0
+    - _FresnelPower: 1
+    - _FresnelPowerALToggle: 0
+    - _FresnelScale: 1
+    - _FresnelScaleALToggle: 0
+    - _FresnelStrength: 3
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Glow: 1
+    - _GlowIntensity: 0
+    - _Gradient: 0
+    - _GradientRotate: 0
+    - _GradientSize: 1
+    - _GradientSpeed: 1
+    - _GrayScaleToggle: 1
+    - _Grayscale: 1
+    - _InsideSpeed: 1
+    - _InvertVORot: 0
+    - _LightSoftness: 1.86
+    - _LockTooltip: 0
+    - _MadebyPiXel4441: 0
+    - _MainTexAnimationALBand: 0
+    - _MainTexAnimationALEnable: 0
+    - _MainTexAnimationALMode: 0
+    - _MainTexAnimationALModeType: 0
+    - _MainTexAnimationALSpeed: 0
+    - _MainTexAnimationALStrength: 0
+    - _MainTexAnimationAngle: 0
+    - _MainTexAnimationAniAngle: 0
+    - _MainTexAnimationInvert: 0
+    - _MainTexAnimationSpeed: 0
+    - _MainTexChannel: 4
+    - _MainTexMode: 0
+    - _MatPreviewType: 0
+    - _Metallic: 0
+    - _Mode: 0
+    - _NormalOffset: 0.1
+    - _OcclusionStrength: 1
+    - _Offset: 0.5
+    - _Parallax: 0.02
+    - _Resolution: 16
+    - _SFALEHelpbox1: 0
+    - _SFALEHelpbox2: 0
+    - _SFALEHelpbox3: 0
+    - _SFALEHelpbox4: 0
+    - _ScreenSpace: 1
+    - _ShaderALDebugTip: 0
+    - _ShaderLitMode: 0
+    - _ShaderOptimizerEnabled: 0
+    - _Size: 1
+    - _SmoothnessTextureChannel: 0
+    - _SnapIntensity: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _TexModeMatcap: 0
+    - _TexturePanningAmount: 0
+    - _TextureScroll: 0
+    - _TextureWeight: 1
+    - _TrailMaskGlowBypass: 0
+    - _TrailMaskTexChannel: 4
+    - _TrailMaskTexDistortToggle: 0
+    - _TrailMaskTexNrmALBand: 0
+    - _TrailMaskTexNrmALMode: 0
+    - _TrailMaskTexNrmALModeType: 0
+    - _TrailMaskTexNrmALSpeed: 0
+    - _TrailMaskTexNrmALStrength: 0
+    - _TrailMaskTexNrmALToggle: 0
+    - _TrailMaskTexNrmAngle: 0
+    - _TrailMaskTexNrmAnimationAngle: 0
+    - _TrailMaskTexNrmAnimationSpeed: 0
+    - _TrailMaskTexNrmGen: 0
+    - _TrailMaskTexNrmInvert: 0
+    - _TrailMaskTexNrmScale: 1
+    - _TrailMaskTexNrmScreenSpace: 0
+    - _TrailMaskTexToggle: 0
+    - _UVSec: 0
+    - _VORotAxisMode: 0
+    - _VORotAxisValue: 0
+    - _VORotCustAxisHelpbox1: 0
+    - _VORotSpeed: 0
+    - _ZTestMode: 4
+    - _ZWrite: 1
+    - _ZWriteDepth: 1
+    - _alphaMode: 0
+    - _editorVersionHigherWarning: 0
+    - _editorVersionHigherWarning1: 0
+    - _editorVersionLowerWarning: 0
+    - _fresnelsize: 1
+    - _mainALDebug: 0
+    - _shaderALDisabledWarning: 0
+    - _shaderUnlockedWarning: 0
+    - footer_Beacons: 0
+    - footer_Discord: 0
+    - footer_KoFi: 0
+    - footer_Twitch: 0
+    - footer_Twitter: 0
+    - g_end_BSGradientOptions: 0
+    - g_end_EmisAltColorGradientOptions: 0
+    - g_end_FragColFresnelALColOpts: 0
+    - g_end_FragColFresnelGradient: 0
+    - g_end_MainTexAniOptions: 0
+    - g_start_BSGradientOptions: 0
+    - g_start_EmisAltColorGradientOptions: 0
+    - g_start_FragColFresnelALColOpts: 0
+    - g_start_FragColFresnelGradient: 0
+    - g_start_MainTexAniOptions: 0
+    - m_AudioLink: 0
+    - m_BSS: 0
+    - m_EmissMapOptions: 0
+    - m_FragColFresnel: 0
+    - m_VORotMenu: 0
+    - m_end_ALDebugOption: 0
+    - m_end_ALFragAltColor: 0
+    - m_end_ALFragColFlickerBandSettings: 0
+    - m_end_ALFragColFlickerGradientALAni: 0
+    - m_end_ALFragColFlickerGradientSettings: 0
+    - m_end_ALFragColFlickerModeOptions: 0
+    - m_end_ALFragGlow: 0
+    - m_end_ALFragGlowBandSettings: 0
+    - m_end_ALFragGlowWaveSettings: 0
+    - m_end_ALVOBandSettings: 0
+    - m_end_ALVORot: 0
+    - m_end_ALVORotModeSettings: 0
+    - m_end_ALVOScale: 0
+    - m_end_ALVOScaleBandSettings: 0
+    - m_end_ALVOVertScaleMaskALAnimateOptions: 0
+    - m_end_ALVOVertScaleMaskOptions: 0
+    - m_end_ALVOVertScaleSpecial: 0
+    - m_end_ALVOVertScaleWaveOptions: 0
+    - m_end_BSGradientAnimALBandSettings: 0
+    - m_end_BSGradientAnimALOptions: 0
+    - m_end_BSGradientAnimOptions: 0
+    - m_end_EmisAdvAnimationALAltColorSettings: 0
+    - m_end_EmisAdvAnimationALOptions: 0
+    - m_end_EmisAdvAnimationALTextureSettings: 0
+    - m_end_EmisAltColorAnimationALBandSettings: 0
+    - m_end_EmisAltColorGradientAnimationOptions: 0
+    - m_end_EmisAltColorOptions: 0
+    - m_end_EmisMaskAnimOptions: 0
+    - m_end_EmisMaskNrmAnimOptions: 0
+    - m_end_EmisMaskNrmGenOptions: 0
+    - m_end_EmisMaskNrmOptions: 0
+    - m_end_EmisTexAnimationALBandSettings: 0
+    - m_end_EmissTexNrmALBandSettings: 0
+    - m_end_EmissTexNrmALSettings: 0
+    - m_end_FragColDistortionALOptions: 0
+    - m_end_FragColDistortionAnimationOptions: 0
+    - m_end_FragColDistortionBandOptions: 0
+    - m_end_FragColDistortionGenOptions: 1
+    - m_end_FragColDistortionOptions: 0
+    - m_end_FragColFresnelALBandSettings: 0
+    - m_end_FragColFresnelALColOptions: 0
+    - m_end_FragColFresnelALMaskOptions: 0
+    - m_end_FragColFresnelALNRMOptions: 0
+    - m_end_FragColFresnelALOptions: 0
+    - m_end_FragColFresnelALPowerOptions: 0
+    - m_end_FragColFresnelALScaleOptions: 0
+    - m_end_FragColFresnelALTexNRMOptions: 0
+    - m_end_FragColFresnelALTextureOptions: 0
+    - m_end_FragColFresnelCDistortionMapAnimOptions: 0
+    - m_end_FragColFresnelCDistortionMapGenOptions: 0
+    - m_end_FragColFresnelColorOptions: 0
+    - m_end_FragColFresnelDistortionOptions: 0
+    - m_end_FragColFresnelGradientAni: 0
+    - m_end_FragColFresnelMaskALBandOptions: 0
+    - m_end_FragColFresnelMaskAnimOptionss: 0
+    - m_end_FragColFresnelMaskOptions: 0
+    - m_end_FragColFresnelNRMALBandOptions: 0
+    - m_end_FragColFresnelPowerALBandOptions: 0
+    - m_end_FragColFresnelPowerALWaveOptions: 0
+    - m_end_FragColFresnelScaleALBandOptions: 0
+    - m_end_FragColFresnelScaleALWaveOptions: 0
+    - m_end_FragColFresnelTexAnimOptions: 0
+    - m_end_FragColFresnelTexDistortionMapAnimOptions: 0
+    - m_end_FragColFresnelTexDistortionMapGenOptions: 0
+    - m_end_FragColFresnelTexNRMALBandOptions: 0
+    - m_end_FragColFresnelTexOptions: 0
+    - m_end_FragColFresnelTextureALBandOptions: 0
+    - m_end_FragColFresnelTextureDistortionOptions: 0
+    - m_end_FragColorFlicker: 0
+    - m_end_Fresnel: 0
+    - m_end_GROptions: 0
+    - m_end_Gradients: 0
+    - m_end_MainSettings: 0
+    - m_end_MainTexAnimationALBandSettings: 0
+    - m_end_MainTexAnimationALOptions: 0
+    - m_end_MainTexOptions: 0
+    - m_end_SFALE: 0
+    - m_end_TrailALOptions: 0
+    - m_end_TrailMaskNrmALBandSettings: 0
+    - m_end_TrailMaskNrmALOptions: 0
+    - m_end_TrailMaskNrmAnimOptions: 0
+    - m_end_TrailMaskNrmGenOptions: 0
+    - m_end_TrailMaskNrmOptions: 0
+    - m_end_TrailMaskOptions: 0
+    - m_start_ALDebugOption: 0
+    - m_start_ALFragAltColor: 0
+    - m_start_ALFragColFlickerBandSettings: 0
+    - m_start_ALFragColFlickerGradientALAni: 0
+    - m_start_ALFragColFlickerGradientSettings: 0
+    - m_start_ALFragColFlickerModeOptions: 0
+    - m_start_ALFragGlow: 0
+    - m_start_ALFragGlowBandSettings: 0
+    - m_start_ALFragGlowWaveSettings: 0
+    - m_start_ALVOBandSettings: 0
+    - m_start_ALVORot: 0
+    - m_start_ALVORotModeSettings: 0
+    - m_start_ALVOScale: 0
+    - m_start_ALVOScaleBandSettings: 0
+    - m_start_ALVOVertScaleMaskALAnimateOptions: 0
+    - m_start_ALVOVertScaleMaskOptions: 0
+    - m_start_ALVOVertScaleSpecial: 0
+    - m_start_ALVOVertScaleSpecialHelpbox1: 0
+    - m_start_ALVOVertScaleWaveOptions: 0
+    - m_start_BSGradientAnimALBandSettings: 0
+    - m_start_BSGradientAnimALOptions: 0
+    - m_start_BSGradientAnimOptions: 0
+    - m_start_EmisAdvAnimationALAltColorSettings: 0
+    - m_start_EmisAdvAnimationALOptions: 0
+    - m_start_EmisAdvAnimationALTextureSettings: 0
+    - m_start_EmisAltColorAnimationALBandSettings: 0
+    - m_start_EmisAltColorGradientAnimationOptions: 0
+    - m_start_EmisAltColorOptions: 0
+    - m_start_EmisMaskAnimOptions: 0
+    - m_start_EmisMaskNrmAnimOptions: 0
+    - m_start_EmisMaskNrmGenOptions: 0
+    - m_start_EmisMaskNrmOptions: 0
+    - m_start_EmisTexAnimationALBandSettings: 0
+    - m_start_EmissTexNrmALBandSettings: 0
+    - m_start_EmissTexNrmALSettings: 0
+    - m_start_FragColDistortionALOptions: 0
+    - m_start_FragColDistortionAnimationOptions: 0
+    - m_start_FragColDistortionBandOptions: 0
+    - m_start_FragColDistortionGenOptions: 1
+    - m_start_FragColDistortionOptions: 0
+    - m_start_FragColFresnelALBandSettings: 0
+    - m_start_FragColFresnelALColOptions: 0
+    - m_start_FragColFresnelALMaskOptions: 0
+    - m_start_FragColFresnelALNRMOptions: 0
+    - m_start_FragColFresnelALOptions: 0
+    - m_start_FragColFresnelALPowerOptions: 0
+    - m_start_FragColFresnelALScaleOptions: 0
+    - m_start_FragColFresnelALTexNRMOptions: 0
+    - m_start_FragColFresnelALTextureOptions: 0
+    - m_start_FragColFresnelCDistortionMapAnimOptions: 0
+    - m_start_FragColFresnelCDistortionMapGenOptions: 0
+    - m_start_FragColFresnelColorOptions: 0
+    - m_start_FragColFresnelDistortionOptions: 0
+    - m_start_FragColFresnelGradientAni: 0
+    - m_start_FragColFresnelMaskALBandOptions: 0
+    - m_start_FragColFresnelMaskAnimOptions: 0
+    - m_start_FragColFresnelMaskOptions1: 0
+    - m_start_FragColFresnelNRMALBandOptions: 0
+    - m_start_FragColFresnelPowerALBandOptions: 0
+    - m_start_FragColFresnelPowerALWaveOptions: 0
+    - m_start_FragColFresnelScaleALBandOptions: 0
+    - m_start_FragColFresnelScaleALWaveOptions: 0
+    - m_start_FragColFresnelTexAnimOptions: 0
+    - m_start_FragColFresnelTexDistortionMapAnimOptions: 0
+    - m_start_FragColFresnelTexDistortionMapGenOptions: 0
+    - m_start_FragColFresnelTexNRMALBandOptions: 0
+    - m_start_FragColFresnelTexOptions: 0
+    - m_start_FragColFresnelTextureALBandOptions: 0
+    - m_start_FragColFresnelTextureDistortionOptions: 0
+    - m_start_FragColorFlicker: 0
+    - m_start_Fresnel: 0
+    - m_start_GROptions: 0
+    - m_start_Gradients: 0
+    - m_start_MainSettings: 1
+    - m_start_MainTexAnimationALBandSettings: 0
+    - m_start_MainTexAnimationALOptions: 0
+    - m_start_MainTexOptions: 0
+    - m_start_SFALE: 0
+    - m_start_TrailALOptions: 0
+    - m_start_TrailMaskNrmALBandSettings: 0
+    - m_start_TrailMaskNrmALOptions: 0
+    - m_start_TrailMaskNrmAnimOptions: 0
+    - m_start_TrailMaskNrmGenOptions: 0
+    - m_start_TrailMaskNrmOptions: 0
+    - m_start_TrailMaskOptions: 0
+    - shader_is_using_thry_editor: 69
+    - shader_master_label: 0
+    m_Colors:
+    - _ALFragAltColor: {r: 0, g: 0, b: 0, a: 1}
+    - _ALVOVertScaleCustAxis: {r: 1, g: 1, b: 1, a: 0}
+    - _Color: {r: 1, g: 0.23113209, b: 0.23113209, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FragColFresnelGradientCustomColor: {r: 1, g: 1, b: 1, a: 1}
+    - _FresnelColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _FresnelScroll: {r: 0, g: 0, b: 0, a: 0}
+    - _LightDir: {r: -1, g: -1, b: 0, a: 1}
+    - _ReflectColor: {r: 0.8000001, g: 0.8000001, b: 0.8000001, a: 0.5}
+    - _ScreenSpaceScroll: {r: 0, g: 0, b: 0, a: 0}
+    - _SizeXY: {r: 1, g: 1, b: 0, a: 0}
+    - _Speed: {r: 0, g: 0, b: 0, a: 0}
+    - _SpeedDistortion: {r: -0.55, g: 0, b: 0, a: 0}
+    - _Tiling: {r: 5, g: 5, b: 0, a: 0}
+    - _TilingDistortion: {r: 5, g: 5, b: 0, a: 0}
+    - _VORotCustAxis: {r: 0, g: 0, b: 1, a: 0}
